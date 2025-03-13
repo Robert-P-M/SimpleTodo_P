@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="weekdays">
+        <item>Montag</item>
+        <item>Dienstag</item>
+        <item>Mittwoch</item>
+        <item>Donnerstag</item>
+        <item>Freitag</item>
+        <item>Samstag</item>
+        <item>Sonntag</item>
+    </string-array>
+    <string-array name="months">
+        <item>Januar</item>
+        <item>Februar</item>
+        <item>März</item>
+        <item>April</item>
+        <item>Mai</item>
+        <item>Juni</item>
+        <item>Juli</item>
+        <item>August</item>
+        <item>September</item>
+        <item>Oktober</item>
+        <item>November</item>
+        <item>Dezember</item>
+    </string-array>
+    <string name="app_name">SimpleTodo</string>
+    <string name="error_add_task_title_empty">Der Name ist erforderlich. (mindestens: %1$s Zeichen)</string>
+    <string name="error_add_task_title_too_short">Der Name ist zu kurz. (mindestens: %1$s Zeichen)</string>
+    <string name="error_add_task_description_too_short">Die Beschreibung ist zu kurz. (mindestens: %1$s Zeichen)</string>
+    <string name="top_app_bar_title_home_screen">Home</string>
+    <string name="floating_action_button_home_screen">Neuer Task</string>
+    <string name="floating_action_button_icon_content_description_home_screen">Neuer Task - Icon</string>
+    <string name="error_add_section_title_empty">Sektionname ist erforderlich. (mindestens: %1$s Zeichen)</string>
+    <string name="error_add_section_too_short">Der Sektionname ist zu kurz. (mindestens: %1$s Zeichen)</string>
+    <string name="task_title_placeholder">Der Name vom Task</string>
+    <string name="task_title_label">Name</string>
+    <string name="task_description_placeholder">Beschreibung (optional)</string>
+    <string name="task_description_label">Beschreibung (optional)</string>
+    <string name="task_save_button_text">Task speichern</string>
+    <string name="add_task_modal_title">Neuer Task</string>
+    <string name="add_section_modal_title">Neue Sektion</string>
+    <string name="section_title_placeholder">Der Name von der Section</string>
+    <string name="section_title_label">Name</string>
+    <string name="section_save_button_text">Sektion speichern</string>
+    <string name="error_data_local_disk_full">Kein Speicherplatz verfügbar</string>
+    <string name="task_successfully_created">Task erstellt</string>
+    <string name="section_successfully_created">Sektion erstellt</string>
+    <string name="success_section_created">Sektion erstellt</string>
+    <string name="success_task_created">Task erstellt</string>
+    <string name="success_task_completed">Task erledigt</string>
+    <string name="success_task_not_completed">Task nicht mehr erledigt</string>
+    <string name="success_task_archived">Task archiviert</string>
+    <string name="success_task_not_archived">Task nicht mehr archiviert</string>
+    <string name="success_task_removed">Task gelöscht</string>
+    <string name="home_top_app_bar_dropdown_menu_item_text_view_mode">Ansicht-Typ</string>
+    <string name="home_top_app_bar_dropdown_menu_item_icon_description_view_mode">Ansicht-Typ - Icon</string>
+    <string name="home_top_app_bar_dropdown_menu_item_text_add_section">Neue Sektion</string>
+    <string name="home_top_app_bar_dropdown_menu_item_icon_description_add_section">Neue Sektion - Icon</string>
+    <string name="section_item_dropdown_menu_item_text_add_task">Neuer Task</string>
+    <string name="section_item_dropdown_menu_item_icon_description_add_task">Neuer Task - Icon</string>
+    <string name="task_item_dropdown_menu_item_text_created_at">Erstellt am %1$s</string>
+    <string name="task_item_dropdown_menu_item_text_edit_task">Task bearbeiten</string>
+    <string name="task_item_dropdown_menu_item_icon_description_edit_task">Task bearbeiten - Icon</string>
+    <string name="task_item_dropdown_menu_item_text_delete_task">Task löschen</string>
+    <string name="task_item_dropdown_menu_item_icon_description_delete_task">Task löschen - Icon</string>
+    <string name="task_item_dropdown_menu_item_text_delete_section">Sektion löschen</string>
+    <string name="task_item_dropdown_menu_item_icon_description_delete_section">Sektion löschen - Icon</string>
+    <string name="dropdown_menu_item_text_close">Menü schließen</string>
+    <string name="dropdown_menu_item_icon_description_close">Menü schließen - Icon</string>
+    <string name="success_section_removed">Sektion gelöscht</string>
+    <string name="dialog_delete_section_text">Das löschen der Sektion wird auch alle dazugehörigen tasks löschen. \n\nBist du dir sicher und möchtest fortfahren?</string>
+    <string name="dialog_delete_task_text">Das löschen des Tasks wird auch alle dazugehörigen tasks löschen. \n\nBist du dir sicher und möchtest fortfahren?</string>
+    <string name="task_item_dropdown_menu_item_text_add_sub_task">Unteraufgabe hinzufügen</string>
+    <string name="task_detail_dialog_add_sub_task">Unteraufgabe hinzufügen</string>
+    <string name="task_item_dropdown_menu_item_icon_description_add_sub_task">Unteraufgabe hinzufügen - Icon</string>
+    <string name="error_data_local_unknown">Ein unbekannter Fehler ist aufgetreten.</string>
+    <string name="error_data_remote_network_error">Netzwerkfehler - bitte versuche es später erneut</string>
+    <string name="error_data_remote_no_internet">Keine Internetverbindung - bitte versuche es später erneut.</string>
+    <string name="error_data_remote_request_timeout">Es konnten keine Daten geladen werden - bitte versuche es später erneut.</string>
+    <string name="task_location_inbox">Eingang</string>
+    <string name="icon_description_menu_icon_horizontal">Menü - Icon</string>
+    <string name="task_item_dropdown_menu_item_text_edit_section">Sektion bearbeiten</string>
+    <string name="task_item_dropdown_menu_item_icon_description_edit_section">Sektion bearbeiten - Icon</string>
+    <string name="task_item_dropdown_menu_item_icon_description_go_to_details">Details -Icon</string>
+    <string name="task_item_dropdown_menu_item_text_go_to_details">Details</string>
+    <string name="task_update_button_text">Task editieren</string>
+    <string name="task_priority_placeholder">Priorität (optional)</string>
+    <string name="task_priority_label">Priorität</string>
+    <string name="priority_enum_text_low">Niedrig</string>
+    <string name="priority_enum_text_normal">Normal</string>
+    <string name="priority_enum_text_high">Hoch</string>
+    <string name="priority_enum_text_no_selection">Priorität auswählen (optional)</string>
+    <string name="update_task_modal_title">Task editieren</string>
+    <string name="update_section_modal_title">Sektion editieren</string>
+    <string name="priority_enum_high_icon_content_description">Hohe Priorität - Icon</string>
+    <string name="priority_enum_normal_icon_content_description">Normale Priorität - Icon</string>
+    <string name="priority_enum_low_icon_content_description">Niedrige Priorität - Icon</string>
+    <string name="priority_enum_no_selection_icon_content_description">Keine Priorität ausgewählt - Icon</string>
+    <string name="priority_enum_text_high_long">Hohe Priorität</string>
+    <string name="priority_enum_text_normal_long">Normale Priorität</string>
+    <string name="priority_enum_text_low_long">Niedrige Priorität</string>
+    <string name="priority_enum_text_remove">Priorität löschen</string>
+    <string name="error_add_task_description_empty">Beschreibung darf nicht leer sein. (mindestens: %1$s Zeichen)</string>
+    <string name="floating_action_button_menu_item_text_new_task">Neuer Task</string>
+    <string name="floating_action_button_menu_item_text_new_section">Neue Sektion</string>
+    <string name="home_floating_action_menu_button_expanded">Menuüoffen</string>
+    <string name="home_floating_action_menu_button_collapsed">Menü geschlössen</string>
+    <string name="home_floating_action_menu_button_icon_description">Toggle Menü - Icon</string>
+    <string name="home_floating_action_menu_button_icon_description_close">Menü schließen</string>
+    <string name="description_not_set">Keine Beschreibung verfügbar</string>
+    <string name="error_task_details_dialog_no_task_found">Kein Task gefunden</string>
+    <string name="priority_enum_text_no_selection_alternative">Wähle eine Priorität</string>
+    <string name="due_dialog_title">Datum</string>
+    <string name="due_dialog_picker_item_today_long">Heute</string>
+    <string name="calendar_week_short">KW</string>
+    <string name="upcoming_day_today">Heute</string>
+    <string name="upcoming_day_tomorrow">Morgen</string>
+    <string name="upcoming_day_this_weekend">Dieses Wochenende</string>
+    <string name="upcoming_day_next_weekend">Nächstes Wochenende</string>
+    <string name="upcoming_day_next_week">Nächste Woche</string>
+    <string name="task_due_label">Fälligkeit</string>
+    <string name="pick_a_date">Wähle ein Datum</string>
+    <string name="due_dialog_save_button">Speichern</string>
+    <string name="due_dialog_screen_notification">Benachrichtigung</string>
+    <string name="due_dialog_screen_duration">Dauer</string>
+    <string name="due_dialog_screen_select_time">Zeit</string>
+    <string name="no_date_selected">Kein Datum</string>
+    <string name="wheel_picker_label_hour">Stunde</string>
+    <string name="wheel_picker_label_minute">Minute</string>
+    <string name="duration_picker_dialog_title">Wähle eine Dauer</string>
+    <string name="time_picker_dialog_title">Wähle eine Zeit</string>
+    <string name="home_top_app_bar_dropdown_menu_item_text_change_language">Sprache ändern</string>
+    <string name="home_top_app_bar_dropdown_menu_item_icon_description_change_language">Sprache ändern - Icon</string>
+    <string name="app_locale_de_DE">Deutsch</string>
+    <string name="app_locale_us_EN">Englisch</string>
+    <string name="day_of_week_name_monday">Montag</string>
+    <string name="day_of_week_name_tuesday">Dienstag</string>
+    <string name="day_of_week_name_wednesday">Mittwoch</string>
+    <string name="day_of_week_name_thursday">Donnerstag</string>
+    <string name="day_of_week_name_friday">Freitag</string>
+    <string name="day_of_week_name_saturday">Samstag</string>
+    <string name="day_of_week_name_sunday">Sonntag</string>
+    <string name="month_name_january">Januar</string>
+    <string name="month_name_february">Februar</string>
+    <string name="month_name_march">März</string>
+    <string name="month_name_april">April</string>
+    <string name="month_name_may">Mai</string>
+    <string name="month_name_june">Juni</string>
+    <string name="month_name_july">Juli</string>
+    <string name="month_name_august">August</string>
+    <string name="month_name_september">September</string>
+    <string name="month_name_october">Oktober</string>
+    <string name="month_name_november">November</string>
+    <string name="month_name_december">Dezember</string>
+    <string name="task_activity_dialog_modal_title">Aktivitätsprotokoll</string>
+    <string name="task_activity_dialog_priority_enum_activity_text_high">Du hast die Priorität auf hoch gestellt.</string>
+    <string name="task_activity_dialog_priority_enum_activity_text_normal">Du hast die Priorität auf normal gestellt.</string>
+    <string name="task_activity_dialog_priority_enum_activity_text_low">Du hast die Priorität auf niedrig gestellt.</string>
+    <string name="task_activity_dialog_priority_enum_activity_text_none">Du hast keine Priorität gesetzt.</string>
+    <string name="task_activity_dialog_completed_activity_text_is_completed">Du hast den Task beendet.</string>
+    <string name="task_activity_dialog_completed_activity_text_is_not_completed">Der Task wurde als nicht beendet markiert.</string>
+    <string name="task_activity_dialog_archived_activity_text_is_not_archived">Der Task wurde als nicht archiviert markiert.</string>
+    <string name="task_activity_dialog_event_activity_text_is_not_active">Du hast das Event für den Task deaktiviert.</string>
+    <string name="task_activity_dialog_child_task_activity_text_first">Du hast deinen ersten subtask erstellt: \"%1$s\"</string>
+    <string name="task_activity_dialog_child_task_activity_text">Du hast einen weiteren subtask erstellt: \"%1$s\"</string>
+    <string name="task_activity_dialog_task_creation">Du hast den Task \"%1$s\" erstellt.</string>
+    <string name="task_activity_dialog_archived_activity_text_is_archived">Der Task wurde archiviert.</string>
+    <string name="task_activity_dialog_event_activity_text_is_active_date_time">Du hast ein Event erstellt für %1$s um %2$s erstellt.</string>
+    <string name="task_activity_dialog_event_activity_text_is_active_date">Du hast ein Event für %1$s erstellt.</string>
+    <string name="task_activity_dialog_event_activity_notification_enabled">Benachrichtigung ist aktiviert.</string>
+    <string name="task_activity_dialog_event_activity_notification_disabled">Benachrichtigung ist deaktiviert.</string>
+    <string name="task_activity_dialog_event_activity_no_event">Du hast keinen aktiven Event.</string>
+    <string name="task_activity_dialog_add_link">Du hast einen Link mit \"%1$s\" zum Task hinzugefügt.</string>
+    <string name="task_details_menu_item_open_task_activity_dialog">Zum Aktivitätsprotokoll</string>
+    <string name="error_data_remote_unauthorized">Du bist nicht angemeldet.</string>
+    <string name="error_data_remote_conflict">Ups, da ist was schief gelaufen.</string>
+    <string name="error_data_remote_payload_to_large">Es gibt ein problem beim empfangen der daten.</string>
+    <string name="error_data_remote_to_many_requests">Zu viele Anfragen. Biete vesuch es später noch einmal.</string>
+    <string name="error_data_remote_server_ERROR">Server Error</string>
+    <string name="error_data_remote_serialization">Es gibt ein problem beim empfangen der daten.</string>
+    <string name="error_data_remote_unknown">Ups, da ist was schief gelaufen.</string>
+    <string name="add_link_modal_title">Neuer Link</string>
+    <string name="add_link_modal_link_title_placeholder">Titel des Links</string>
+    <string name="add_link_modal_link_description_placeholder">Beschreibung des Links</string>
+    <string name="add_link_modal_link_title_label">Titel</string>
+    <string name="add_link_modal_link_description_label">Beschreibung</string>
+    <string name="add_link_modal_link_url_placeholder">Url des Links</string>
+    <string name="add_link_modal_link_url_label">Url</string>
+    <string name="add_link_modal_save_button">Link speichern</string>
+    <string name="toggle_button_notification">Benachrichtigung</string>
+    <string name="task_detail_dialog_add_link">Link hinzufügen</string>
+    <string name="error_generic">Ein unbekannter fehler ist aufgetreten, bitte versuch es später nochmal.</string>
+    <string name="error_shared_url_empty">Die URL darf nicht leer sein.</string>
+    <string name="error_shared_url_invalid">Die eingegebene URL ist ungültig.</string>
+    <string name="error_shared_url_malformed">Die URL ist fehlerhaft formatiert.</string>
+    <string name="error_shared_url_too_long">Die URL ist zu lang. (maximal: %1$s Zeichen)</string>
+    <string name="error_link_description_empty">Die Beschreibung darf nicht leer sein. (maximal: %1$s Zeichen)</string>
+    <string name="error_link_description_too_short">Die Beschreibung ist zu kurz. (mindestens: %1$s Zeichen)</string>
+    <string name="error_link_title_empty">Der Titel darf nicht leer sein.  (mindestens: %1$s Zeichen)</string>
+    <string name="error_link_title_too_long">Der Titel ist zu kurz.  (mindestens: %1$s Zeichen)</string>
+    <string name="links_dialog_title">Link</string>
+    <string name="error_data_storage_file_creation_failed">Datei konnte nicht erstellt werden</string>
+    <string name="error_data_storage_write_permission_denied">Schreibzugriff verweigert</string>
+    <string name="error_data_storage_invalid_file_name">Ungültiger Dateiname</string>
+    <string name="error_data_storage_full">Speicher voll</string>
+    <string name="error_data_storage_unknown">Unbekannter Speicherfehler</string>
+    <string name="add_new_link">Neuer Link</string>
+    <string name="error_shared_url_no_http_protocol">Ungültiger Link: Bitte geben Sie eine vollständige URL mit http:// oder https:// ein.</string>
+    <string name="open_link">Öffnen</string>
+    <string name="loading_info_start_saving_task">Starte mit dem speichern.</string>
+    <string name="loading_info_task_saved">Task gespeichert.</string>
+    <string name="loading_info_processing_image_start">Bild wird gespeichert.</string>
+    <string name="loading_info_processing_image_completed">Bild wurde gespeichert.</string>
+    <string name="loading_info_start_saving_section">Sektion wird gespeichert…</string>
+    <string name="loading_info_start_section_saved">Sektion gespeichert!</string>
+    <string name="error_unknown">Ups, da ist was schief gelaufen.</string>
+    <string name="loading_info_start_updating_task">Task wird aktualisiert.</string>
+    <string name="loading_info_updating_task_done">Task wurde aktualisiert.</string>
+    <string name="permission_request_required_message">Berechtigung erforderlich</string>
+    <string name="permission_request_post_notification">Benachrichtigungen sind erforderlich, um Sie über über anstehende Aufgaben zu informieren.</string>
+    <string name="permission_request_post_notification_granted">Berechtigung erteilt!</string>
+    <string name="permission_request_post_notification_denied">Berechtigung verweigert!</string>
+    <string name="permission_request_grant_permission">Berechtigung erteilen</string>
+    <string name="notification_open_task_details">Öffnen</string>
+</resources>

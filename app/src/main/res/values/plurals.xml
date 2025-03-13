@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="task_activity_dialog_child_task_text">
+        <item  quantity="one">You\'ve created your first subtask: \"%1$s\"</item>
+        <item  quantity="other">You\'ve created an subtask: \"%1$s\"</item>
+    </plurals>
+
+    <plurals name="toggle_button_add_link">
+        <item quantity="zero">%1$s link</item>
+        <item quantity="one">%1$s link</item>
+        <item quantity="other">%1$s links</item>
+    </plurals>
+</resources>
